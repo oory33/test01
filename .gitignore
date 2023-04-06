@@ -1,0 +1,8 @@
+.env/
+.env-8/
+pyinstaller/
+build/
+dist/sano_test01/
+.python-version
+answ/
+backup/
