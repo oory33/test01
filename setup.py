@@ -6,18 +6,18 @@ Cython.Compiler.Options.docstrings = False
 
 ext_modules = cythonize(
     [
-        #akeroyd
-        Extension("libs.akeroyd", ["libs/akeroyd.py"]),
+        # akeroyd
+        Extension("libs.akeroyd", ["python_my-module/akeroyd.py"]),
 
-        #modulation
-        Extension("libs.modulation", ["libs/modulation.py"]),
+        # modulation
+        Extension("libs.modulation", ["python_my-module/modulation.py"]),
 
 
 
     ], compiler_directives=dict(
-            language_level="3",
-            always_allow_keywords=True
-        )
+        language_level="3",
+        always_allow_keywords=True
+    )
 )
 
 setup(
