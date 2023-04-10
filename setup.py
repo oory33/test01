@@ -7,10 +7,10 @@ Cython.Compiler.Options.docstrings = False
 ext_modules = cythonize(
     [
         # akeroyd
-        Extension("libs.akeroyd", ["python_my-module/akeroyd.py"]),
+        Extension("libs.akeroyd", ["libs/akeroyd.py"]),
 
         # modulation
-        Extension("libs.modulation", ["python_my-module/modulation.py"]),
+        Extension("libs.modulation", ["libs/modulation.py"]),
 
 
 
